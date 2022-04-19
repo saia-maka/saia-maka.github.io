@@ -370,6 +370,10 @@
   margin: 20px;
 }
 
+.contact-txt-container span {
+  margin: 10px;
+}
+
 .contact-txt-container span p {
   font-size: 20px;
   font-family: sans-serif;
@@ -386,5 +390,24 @@
   text-decoration: underline;
   color: deepskyblue;
 }
+
+
+/* Contact responsive styling */
+
+@media (max-width: 1000px) {
+  .contact-container {
+    height: 70vh;
+  }
+
+  .contact-txt-container {
+    width: 90%;
+    height: 100%;
+  }
+
+}
+
+/* Contact responsive styling */
+
+
 
 /* Contact section styling */
