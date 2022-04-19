@@ -27,6 +27,7 @@
   margin: 0;
   transition: all ease 300ms;
   color: white;
+  text-decoration: none;
 }
 
 .nav-btns-container a:hover {
