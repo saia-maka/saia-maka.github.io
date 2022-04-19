@@ -105,16 +105,27 @@ body {
   align-items: center;
   justify-content: start;
   margin: 20px;
-  border: 1pt solid black;
+  /* border: 1pt solid black; */
 }
 
 .blog-post-title-wrapper {
-  width: 90%;
+  width: 80%;
   height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1pt solid blue;
+  /* border: 1pt solid blue; */
+}
+
+.blog-post-title-wrapper h2 {
+  font-family: sans-serif;
+  font-size: 30pt;
+  font-weight: lighter;
+  text-align: center;
+  width: 100%;
+  color: springgreen;
+  padding: 2px;
+  border-bottom: 1pt solid white;
 }
 
 .blog-post-txt-wrapper {
@@ -125,23 +136,28 @@ body {
   align-items: flex-start;
   justify-content: start;
   margin: 20px;
-  border: 1px solid green;
+  background-color: rgba(30, 143, 255, 0.301);
+  /* border: 1px solid green; */
 }
 
 .post-questions {
 width: 100%;
-font-size: 24px;
+font-size: 22px;
 font-family: sans-serif;
 font-weight: bold;
+text-align: left;
+line-height: 1.6rem;
+
 margin: 10px;
 }
 
 .post-answers {
-  width: 100%;
+width: 90%;
 font-size: 19px;
 font-family: sans-serif;
 font-weight: lighter;
-text-align: center;
+text-align: justify;
+line-height: 1.6rem;
 margin: 10px;
 }
 
