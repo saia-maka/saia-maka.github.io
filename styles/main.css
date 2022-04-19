@@ -1,0 +1,74 @@
+/* Nav bar styling */
+
+.nav-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin: 0;
+  background-color: black;
+
+}
+
+.nav-btns-container {
+  width: 60%;
+  height: 6vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  /* background-color: aquamarine; turn on for editing */
+
+}
+
+.nav-btns-container a {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 0;
+  transition: all ease 300ms;
+  color: white;
+}
+
+.nav-btns-container a:hover {
+  color: springgreen;
+  cursor: pointer;
+}
+
+/* Responsive Nav styling below */
+
+@media (max-width: 600px) {
+
+  .nav-btns-container {
+    width: 90%;
+  }
+
+  .nav-btns-container a {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 800px) {
+  .nav-btns-container {
+    width: 90%;
+  }
+
+  .nav-btns-container a {
+    font-size: 24px;
+  }
+}
+
+@media (max-height: 800px) {
+  .nav-btns-container {
+    /* height: 7vh; */
+    width: 90%;
+  }
+
+  .nav-btns-container a {
+    font-size: 22px;
+  }
+
+}
+
+/* Nav bar styling */
