@@ -32,40 +32,189 @@
               What is the differences between HTML and CSS?
             </p>
             <p class="post-answers">
-              HTML is all the content that you see on a webpage. The
-              text, titles, images, videos etc. CSS is the styling and it
-              determines how it all looks, where it all goes and how it fits all
-              together eg what font the text will be, what size the titles are
-              and what color they may be, how big or small an image is and where
-              to display a video.
-              <br>
-              <br>
-              Every piece of content must be displayed in a
-              sensible manner that is presentable and easy for us to find and
-              navigate. CSS dictates the positioning and styling of all the
-              content.
-              <br>
-              <br>
-              I've never designed a shirt before but I can imagine it's
-              similar. Your text and picture you're wanting to put on your shirt
-              is like HTML eg It's a picture of a brick wall and the text says
-              something like "Street Kiwi". You can put it on your shirt as it
-              is but it won't look very nice because it needs some stylin!
-              Choosing what font your gonna use, what color text you'll use, how
-              big you picture will be and where its gonna sit on the shirt is
-              exactly like how CSS fits with HTML. HTML is the content. CSS is
-              the styling of the content!
+              HTML is all the content that you see on a webpage. The text,
+              titles, images, videos etc. CSS is the styling and it determines
+              how it all looks, where it all goes and how it fits all together
+              eg what font the text will be, what size the titles are and what
+              color they may be, how big or small an image is and where to
+              display a video.
+              <br />
+              <br />
+              Every piece of content must be displayed in a sensible manner that
+              is presentable and easy for us to find and navigate. CSS dictates
+              the positioning and styling of all the content.
+              <br />
+              <br />
+              I've never designed a shirt before but I can imagine it's similar.
+              Your text and picture you're wanting to put on your shirt is like
+              HTML eg It's a picture of a brick wall and the text says something
+              like "Street Kiwi". You can put it on your shirt as it is but it
+              won't look very nice because it needs some stylin! Choosing what
+              font your gonna use, what color text you'll use, how big you
+              picture will be and where its gonna sit on the shirt is exactly
+              like how CSS fits with HTML. HTML is the content. CSS is the
+              styling of the content!
             </p>
           </div>
 
           <div class="blog-post-txt-wrapper">
-              <p class="post-questions"></p>
-              <p class="post-answers"></p>
-            </div>
-          <!-- <div class="blog-post-txt-wrapper">
-              <p class="post-questions"></p>
-              <p class="post-answers"></p>
-            </div> -->
+            <p class="post-questions">What is control flow and loops?</p>
+            <p class="post-answers">
+              An easy way to think of control flow and loops would be to think
+              of how you fold your clothes and put them away in your drawers.
+              The goal is have our clothes folded and put away nicely in our
+              drawers. Since we're working with computers we have to tell it how
+              to do it and create a process for the computer to follow. In every
+              process there are steps and if the steps are not followed
+              correctly we know that the outcome is often not correct either.
+              <br />
+              <br />
+              For example, if we just picked up our clothes and put them
+              straight into our drawers there would be a few issues: the clothes
+              probably wont all fit and you probably wont be able to close or
+              open your drawers. We need to pick up each piece of clothing, fold
+              it, sort where it going to go and then put it away. So when were
+              giving the computer the instructions or steps to follow we have to
+              make sure we structure the steps/instructions correctly in order
+              to achieve the correct outcome. This is called control flow.
+              <br />
+              <br />
+              During our process we sometimes come to a point where we need to
+              repeat a certain process. In programming we try to avoid using
+              repetitive code so that's where loops come in! We can use loops to
+              repeat a process in a few lines of code rather than lines and
+              lines of code repeating ourselves. We can simply create a loop and
+              say - pick up a piece of clothing, fold it and put it here. Keep
+              doing this until there are no more clothes left in the basket.
+              Done!
+            </p>
+          </div>
+          <div class="blog-post-txt-wrapper">
+            <p class="post-questions">
+              What is the DOM and how do you interact with it?
+            </p>
+            <p class="post-answers">
+              The Document Object Model or DOM is a tree of objects that
+              represent the html of a webpage. Each piece of html in the webpage
+              is a separate object and are nested within each other or branch
+              off each other. It's hard to imagine but think of it as a family
+              tree. There are parents and their children branch off of them in
+              the family tree. Its the same sort of thing with html elements -
+              they can have other elements nested within them/branched off of
+              them. They are called parent elements and child elements, and it
+              continues as the sort of next generations are created.
+              <br />
+              <br />
+              That's what the DOM is and looks like - but what its used for is
+              to allow developers to target certain content or elements in the
+              tree and manipulate. Creating elements using html/css is like
+              making a light switch. You can put there and make it look nice but
+              without some wiring(logic/javascript) it doesn't do anything its
+              just like a decoration. The light swtich would be one of many
+              objects with the tree and the DOM allows us to find and
+              select/target the specific object we want to work on, in this case
+              the light switch, and then use javascript to manipulate it eg turn
+              it on, turn off or even make it disappear!
+            </p>
+          </div>
+          <div class="blog-post-txt-wrapper">
+            <p class="post-questions">
+              Whats the difference between accessing data in arrays and objects?
+            </p>
+            <p class="post-answers">
+              Data accessed from arrays is accessed using indexes. If you had an
+              array of colors eg:
+              <br />
+              <br />
+              <strong> let arrColors = ['red', 'green', 'blue']; </strong>
+              <br />
+              <br />
+              To access a color (or data from within the array) you'd have to
+              use the index of where it is in the array. The index of blue would
+              be 2 because indexes start from 0 - so to access it you'd do so
+              like this:
+              <br />
+              <br />
+              <strong>
+                arrColors[2]
+              </strong>
+              <br />
+              <br />
+              Objects have key value pairs meaning each piece of data within the
+              object has a key and each key has a value eg:
+              <br />
+              <br />
+              <strong>
+              let obj= {
+              <br />
+              name: 'Saia',
+              <br />
+              age: 26,
+              <br />
+              favColor: 'black'
+              <br />
+              }
+              </strong>
+              <br />
+              <br />
+              For objects you wouldn't access the data stored within them using
+              indexes, you would use the dot operator ('.' - simply a dot)
+              followed by the name of the key you're trying access. If you
+              wanted to access the the name data inside the "obj" object you
+              would do so like this:
+              <br />
+              <br />
+              <strong>
+                obj.name
+              </strong>
+              <br />
+              <br />
+              If you assigned this to a variable and console.log it:
+              <br />
+              <strong>
+                let myName = obj.name
+              </strong>
+              <br />
+              <strong>
+                console.log(myName)
+              </strong>
+              <br />
+              <br />
+              It would display 'Saia'.
+              <br />
+              So when you access data in arrays you use indexes and when
+              accessing data in objects you use the dot operator followed by the
+              name of the key your trying to access. For objects you can also
+              use the square bracket enclosed with the name of the key inside a
+              string eg:
+              <br />
+              <br />
+              <strong>
+                obj['name']
+              </strong>
+            </p>
+          </div>
+          <div class="blog-post-txt-wrapper">
+            <p class="post-questions">
+              What are functions and why are they useful?
+            </p>
+            <p class="post-answers">
+              Functions are a set of statements in javascript that execute a
+              task. Functions are awesome they're like tools that you can design
+              to complete a task and then re-use as many times as you need. When
+              you're building your code you need different tools to accomplish
+              different tasks.
+              <br />
+              <br />
+              So once you know what you need to do or what the task is that you
+              need to complete, you build a tool(or a function in our case) that
+              can do the job that you need done. Sometimes you will need to do
+              the same job again or maybe a few times more? Functions are really
+              useful because once you've built one you can call its name again
+              anywhere in your code(as long as it's after where you built/write
+              it) and it will re-do its job however many times you need it to!
+            </p>
+          </div>
         </div>
       </div>
 
