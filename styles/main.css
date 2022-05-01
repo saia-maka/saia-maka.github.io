@@ -4,6 +4,24 @@ body {
 
 /* Nav bar styling */
 
+@keyFrames welcomeNav {
+  0% {
+    color: transparent;
+    transform: translateY(-100%);
+
+  }
+  50% {
+    color: transparent;
+    transform: translateY(-100%);
+
+  }
+  100% {
+    color: white;
+    transform: translateY(-0%);
+
+  }
+}
+
 .nav-container {
   width: 100%;
   height: auto;
@@ -43,6 +61,7 @@ body {
   transition: all ease 300ms;
   color: white;
   text-decoration: none;
+  animation: welcomeNav 2s ease;
 }
 
 .nav-btns-container span a:hover {
@@ -96,6 +115,35 @@ body {
 /* Nav bar styling */
 
 /* Hero section styling */
+
+@keyframes welcomeslideU {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes welcomeslideR {
+  0% {
+    transform: translateX(100%);
+    color: transparent;
+    text-shadow: 1px 1px 1px transparent;
+  }
+  66% {
+    transform: translateX(100%);
+    color: transparent;
+    text-shadow: 1px 1px 1px transparent;
+  }
+  100% {
+    transform: translateX(0%);
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 199, 123);
+  }
+}
+
 .hero-container {
   width: 100%;
   height: 91vh;
@@ -124,6 +172,7 @@ body {
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.7);
   margin: 0;
+  animation: welcomeslideU 1s ease;
 }
 
 .hero-txt-container {
@@ -147,6 +196,7 @@ body {
   color: white;
   text-shadow: 1px 1px 1px rgb(0, 199, 123);
   margin: 0;
+  animation: welcomeslideR 2.8s ease;
 }
 
 /* Responsive hero styling */

@@ -4,6 +4,24 @@ body {
 
 /* Nav bar styling */
 
+@keyFrames welcomeNavSub {
+  0% {
+    color: transparent;
+    transform: translateY(-100%);
+
+  }
+  66% {
+    color: transparent;
+    transform: translateY(-100%);
+
+  }
+  100% {
+    color: white;
+    transform: translateY(-0%);
+
+  }
+}
+
 .nav-container {
   width: 100%;
   height: auto;
@@ -43,6 +61,7 @@ body {
   transition: all ease 300ms;
   color: white;
   text-decoration: none;
+  animation: welcomeNavSub 1s ease;
 }
 
 .nav-btns-container span a:hover {
