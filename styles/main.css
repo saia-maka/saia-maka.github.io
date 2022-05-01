@@ -259,7 +259,6 @@ body {
   font-size: 28pt;
   font-weight: lighter;
   text-align: center;
-
   width: 100%;
   color: rgb(0, 199, 123);
   margin: 0;
@@ -371,6 +370,35 @@ body {
     display: flex;
     flex-direction: column;
     /* border: 1pt solid black; */
+  }
+
+  .blog-title-txt-container a h3 {
+    font-family: sans-serif;
+    font-size: 33pt;
+    font-weight: lighter;
+    text-align: center;
+    width: 100%;
+  }
+
+  .blog-link-container img {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .blog-link-btn {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding: 0.7rem 1.6rem 0.7rem 1.6em;
+    border-radius: 18px;
+    border: 1pt solid black;
+    transition: all ease 600ms;
+    margin: 5%;
+    background-color: black;
+    color: white;
   }
 
 }
