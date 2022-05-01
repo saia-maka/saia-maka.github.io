@@ -131,9 +131,9 @@ body {
 }
 
 .blog-post-title-wrapper hr {
-  color: black;
-  width: 60%;
-  height: 2pt;
+  /* color: black; */
+  width: 80%;
+  border: 0.5px solid black;
   margin: 2%;
 }
 
