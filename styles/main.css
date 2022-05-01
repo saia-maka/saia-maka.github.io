@@ -29,7 +29,7 @@ body {
 
 .nav-btns-container a {
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: 'Water Brush' ,sans-serif;
   margin: 0;
   transition: all ease 300ms;
   color: white;
@@ -113,10 +113,10 @@ body {
   width: 60%;
   height: 80%;
   border-radius: 50%;
-  border: 1px solid black;
+  /* border: 1px solid rgba(0, 199, 123, 0.3); */
   /* background-image: url(../images/bkimg2.jpg); */
   /* background-attachment: fixed; */
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   margin: 0;
 }
 
@@ -141,7 +141,7 @@ body {
   justify-self: start;
   width: 100%;
   color: white;
-  text-shadow: 1pt 1pt 1pt black;
+  text-shadow: 1px 1px 1px rgb(0, 199, 123);
   margin: 0;
 }
 
@@ -203,19 +203,19 @@ body {
 }
 
 .about-txt-container h2 {
-  font-family: sans-serif;
-  font-size: 30pt;
+  font-family: 'Aguafina Script', sans-serif;
+  font-size: 40pt;
   font-weight: lighter;
   text-align: center;
   width: 100%;
   color: white;
   padding: 2px;
-  border-bottom: 1pt solid white;
+  /* border-bottom: 1pt solid white; */
 }
 
 .about-txt-container p {
-  font-family: sans-serif;
-  font-size: 19px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20pt;
   font-weight: lighter;
   text-align: center;
   line-height: 1.8rem;
@@ -239,7 +239,7 @@ body {
   }
 
   .about-txt-container h2 {
-    font-family: sans-serif;
+    font-family: 'Aguafina Script', sans-serif;
     font-size: 40pt;
     font-weight: lighter;
     text-align: center;
@@ -250,7 +250,7 @@ body {
   }
   
   .about-txt-container p {
-    font-family: sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 29px;
     font-weight: lighter;
     text-align: center;
@@ -303,19 +303,22 @@ body {
 }
 
 .blog-title-txt-container a h3 {
-  font-family: sans-serif;
-  font-size: 28pt;
+  font-family: 'Aguafina Script', sans-serif;
+  font-size: 40pt;
+  word-spacing: 0.5rem;
   font-weight: lighter;
   text-align: center;
   width: 100%;
-  color: rgb(0, 199, 123);
+  color: mediumspringgreen;
   margin: 0;
   transition: all ease 300ms;
+  text-shadow: 1px 1px 1px black;
 }
 
 .blog-title-txt-container h3:hover {
   cursor: pointer;
-  color: mediumspringgreen;
+  color: rgb(0, 199, 123);
+
 }
 
 
@@ -360,8 +363,8 @@ body {
 .blog-link-btn {
   text-decoration: none;
   font-size: 19px;
-  font-family: sans-serif;
-  font-weight: lighter;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
   padding: 0.7rem 1.6rem 0.7rem 1.6em;
   border-radius: 18px;
   border: 1pt solid black;
