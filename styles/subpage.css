@@ -110,7 +110,7 @@ body {
 
 .blog-post-title-wrapper {
   width: 80%;
-  height: 35vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -119,12 +119,14 @@ body {
 }
 
 .blog-post-title-wrapper h2 {
-  font-family: sans-serif;
-  font-size: 32pt;
+  font-family: 'Aguafina Script', sans-serif;
+  font-size: 50pt;
   font-weight: lighter;
   text-align: center;
   width: 100%;
-  color: rgb(0, 0, 0);
+  /* color: rgb(0, 0, 0); */
+  color: mediumspringgreen;
+  text-shadow: 1px 1px 1px black;
   padding: 2px;
   border-bottom: 1pt solid white;
   margin: 0;
@@ -134,6 +136,7 @@ body {
   /* color: black; */
   width: 80%;
   border: 0.5px solid black;
+  text-shadow: 1px 1px 1px black;
   margin: 2%;
 }
 
@@ -151,23 +154,25 @@ body {
 
 .post-questions {
 width: 85%;
-font-size: 22px;
-font-family: sans-serif;
+font-size: 25px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+/* letter-spacing: 0.1rem; */
 font-weight: bold;
 text-align: left;
-line-height: 1.6rem;
+line-height: 1.7rem;
+color: white;
 padding: 0.8rem;
 border-radius: 12px;
-color: white;
+/* background: linear-gradient(black, rgb(0, 90, 50)); */
 background-color: black;
 margin: 10px;
 }
 
 .post-answers {
 width: 85%;
-font-size: 19px;
-font-family: sans-serif;
-font-weight: lighter;
+font-size: 22px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-weight: bold;
 text-align: left;
 line-height: 1.7rem;
 margin: 10px;
