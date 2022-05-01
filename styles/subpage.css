@@ -156,20 +156,20 @@ font-family: sans-serif;
 font-weight: bold;
 text-align: left;
 line-height: 1.6rem;
-padding: 1rem;
+padding: 0.8rem;
 border-radius: 12px;
 color: white;
-background-color: dodgerblue;
+background-color: black;
 margin: 10px;
 }
 
 .post-answers {
-width: 90%;
+width: 85%;
 font-size: 19px;
 font-family: sans-serif;
 font-weight: lighter;
 text-align: left;
-line-height: 1.6rem;
+line-height: 1.7rem;
 margin: 10px;
 }
 
