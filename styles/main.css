@@ -10,16 +10,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid rgb(34, 34, 34);
+  border-bottom: 1px solid rgba(34, 34, 34, 0.5);
   margin: 0;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
   position: fixed;
   z-index: 100;
 }
 
 .nav-btns-container {
   width: 60%;
-  height: 6vh;
+  height: 7vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -27,24 +27,35 @@ body {
   /* background-color: aquamarine; turn on for editing */
 }
 
-.nav-btns-container a {
-  font-size: 20px;
-  font-family: 'Water Brush' ,sans-serif;
+.nav-btns-container span {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.nav-btns-container span a {
+  font-size: 1.7rem;
+  font-family: 'Comforter Brush', 'Water Brush' ,sans-serif;
   margin: 0;
   transition: all ease 300ms;
   color: white;
   text-decoration: none;
 }
 
-.nav-btns-container a:hover {
-  color: springgreen;
+.nav-btns-container span a:hover {
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 1px black;
+  color: rgb(0, 255, 179);
   cursor: pointer;
 }
 
 .nav-space-holder {
   width: 100%;
-  height: 6vh;
-  background-color: white;
+  height: 7vh;
+  background-color: rgba(0, 0, 0, 0.434);
 }
 
 /* Responsive Nav styling */
@@ -65,7 +76,7 @@ body {
   }
 
   .nav-btns-container a {
-    font-size: 24px;
+    font-size: 30px;
   }
 }
 
@@ -76,7 +87,7 @@ body {
   }
 
   .nav-btns-container a {
-    font-size: 22px;
+    font-size: 30px;
   }
 }
 
