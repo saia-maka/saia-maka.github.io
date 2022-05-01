@@ -132,7 +132,8 @@ body {
 }
 
 .hero-txt-container h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Aguafina Script', 'Water Brush', sans-serif;
+  letter-spacing: 0.2rem;
   font-size: 40pt;
   font-weight: lighter;
   text-align: center;
