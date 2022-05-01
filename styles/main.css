@@ -251,22 +251,24 @@ body {
 
 .blog-title-txt-container a {
   text-decoration: none;
+  width: 100%;
 }
 
-.blog-title-txt-container h3 {
+.blog-title-txt-container a h3 {
   font-family: sans-serif;
-  font-size: 25pt;
+  font-size: 28pt;
   font-weight: lighter;
   text-align: center;
+
   width: 100%;
-  color: mediumspringgreen;
+  color: rgb(0, 199, 123);
   margin: 0;
   transition: all ease 300ms;
 }
 
 .blog-title-txt-container h3:hover {
   cursor: pointer;
-  color: rgb(0, 199, 123);
+  color: mediumspringgreen;
 }
 
 
@@ -293,26 +295,38 @@ body {
   height: 300px;
   margin: 10px;
   transition: all ease 300ms;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .blog-link-container img:hover {
   width: 310px;
   height: 310px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+
 }
 
-.blog-link-container a {
-  list-style: none;
+/* .blog-link-container a:hover {
+    cursor: pointer;
+    color: rgb(0, 199, 123);
+} */
+
+.blog-link-btn {
+  text-decoration: none;
   font-size: 19px;
   font-family: sans-serif;
   font-weight: lighter;
-  text-decoration: underline;
-  color: mediumspringgreen;
-  transition: all ease 300ms;
+  padding: 0.7rem 1.6rem 0.7rem 1.6em;
+  border-radius: 18px;
+  border: 1pt solid black;
+  transition: all ease 600ms;
+  margin: 5%;
+  background-color: black;
+  color: white;
 }
 
-.blog-link-container a:hover {
-    cursor: pointer;
-    color: rgb(0, 199, 123);
+.blog-link-btn:hover {
+  background-color: white;
+  color: black;
 }
 
 .blog-boxes-container-aB {
@@ -332,7 +346,7 @@ body {
 @media (max-width: 1000px) {
   .blog-boxes-container-Ab {
     width: 80%;
-    height: 90vh;
+    height: 40vh;
     margin: 5vh 0 5vh 0;
     display: flex;
     flex-direction: column;
@@ -341,7 +355,7 @@ body {
 
   .blog-title-txt-container {
     width: 80%;
-    height: 30%;
+    height: 20%;
   }
 
   .blog-link-container img {
@@ -352,8 +366,8 @@ body {
 
   .blog-boxes-container-aB {
     width: 80%;
-    height: 90vh;
-    margin: 10vh 0 10vh 0;
+    height: 40vh;
+    margin: 5vh 0 5vh 0;
     display: flex;
     flex-direction: column;
     /* border: 1pt solid black; */
